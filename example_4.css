@@ -17,11 +17,13 @@
 }
 
 /*On larger screens make the panels be sideby side*/
-@media screen and(min-width: 641px){
+@media screen and (min-width: 641px){
     /*2 col layout*/
-    .pnael{
+    .panel{
         float:left;
         width: 50%;
+        background:none;
+       
     }
 }
 
@@ -81,6 +83,6 @@
     position: absolute;
     left: -100px;
     display: block;
-    background: green;
+    background: greenyellow;
     padding: 10px;
   }
